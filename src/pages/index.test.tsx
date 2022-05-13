@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import HomePage from "./index.tsx";
+import HomePage from "./index";
 
 it("Welcome message를 보여준다.", () => {
   render(<HomePage />);
