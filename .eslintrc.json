@@ -29,6 +29,16 @@
   "plugins": ["prettier", "@typescript-eslint", "jest", "import"],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    "react/react-in-jsx-scope": 0
+    "import/extensions": [
+      "error",
+      {
+        "tsx": "never",
+        "ts": "never",
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-props-no-spreading": 0
   }
 }
